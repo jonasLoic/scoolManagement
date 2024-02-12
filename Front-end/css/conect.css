@@ -1,0 +1,64 @@
+body{
+    background-color: #203b7e;
+}
+
+.container2{
+    height: 280px;
+    background-color: #242d6e;
+    margin: 0 50px;
+    border-radius: 12px;
+    border-width: 0.5px;
+    border-style: outset;
+    border-color: #242d6e;
+    margin: 65px 500px;
+    padding-bottom: 120px;
+    padding-top: 70px;
+    color: aliceblue; 
+    text-align: center; 
+    align-items: center;
+    box-shadow: 0 4px 30px #040b3c;
+}
+
+.img{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    object-fit: contain;
+    top: 100px;
+    right: 50%;
+    transform: translateX(65px);
+}
+
+.titre{
+    padding: 20px 15px 0 0;
+}
+
+.formul2{
+    font-size: 20px;
+}
+
+.creer{
+    color: aliceblue; 
+    font-size: 17px;
+}
+
+.bouton1{
+    text-align: center; 
+    padding-top: 5px; 
+    padding-left: 10px;
+}
+
+.connect{
+    color: aliceblue; 
+    font-size: 25px;
+    background-color:  #1639d3; 
+    width: 150px; 
+    /*border-radius: 15px;
+    border-width: 1px; 
+    border-style: outset;*/ 
+    padding: 5px 0; 
+    border-color:  #253475;
+    text-overflow:clip;
+}
+
+

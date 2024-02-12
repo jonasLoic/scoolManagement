@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/inscrire.css">
+      <title>inscrire2</title>
+</head>
+<body>
+
+     <h1 style="text-align: center; color: aliceblue;">Gestion du matériel de l'institut Saint Jean</h1>
+
+     <main class="container">
+        <div class="tete1"> 
+               <div class="infos">
+                     <div>    </div>
+                     <div>  infos professionnels </div>  
+               </div>
+               <div class="ligne">
+                     <div style="color: aliceblue;"> <hr style="width: 126px; color: aliceblue;"> <p class="chiffre">1</p> </div>
+                     <div style="color: aliceblue;"> <hr style="width: 156px; color: aliceblue;"> <p class="chiffre">2</p> </div>
+               </div> <br> 
+
+               <div class="choix">
+                    <div>
+                          <button class="connect" id="button_etud">Etudiant</button> 
+                    </div>
+
+                    <div>
+                          <button class="connect" id="connect_prof">Enseignant</button> 
+                    </div>
+               </div> <br> 
+          
+               <img class="img" src="photos/toefOK.png" alt="avatar"> 
+        </div>
+
+          <div  class="formul1">
+               <form action="" class="form" id="insrire">
+                  <div style="height: 200px;"> 
+
+                        <div class="test">
+                              <label for="Matricule">
+                                     Matricule:
+                              </label>
+                              <input  type="text" id ="MatriculeStud" name="Matricule" required><br> <br>
+                        </div>  
+                        
+                        <div class="test">
+                              <label for="Filière">
+                                     Filière:
+                              </label >
+                              <input class="test" type="text" id="filiere" name="Filiere"><br><br>
+                        </div>  
+      
+                        <div class="test">
+                              <label class="test" for="Niveau">
+                                     Niveau:
+                              </label>
+                              <input type="text" id= "niveau" name="Niveau" required><br>
+                        </div>
+                  </div>  
+
+                    <div class="next" style=" padding: 0 15px 10px 10px; display: flex; justify-content: space-between;">
+                         <button class="boutton_next" type="submit"> <a style="color: aliceblue; text-decoration: none;" href="inscrire1.html">Previous</a> </button>
+                         <button class="boutton_next1" type="submit" value="Next"> Next </button>
+                  </div>
+               </form>
+
+               <form action="" class="form" id="insrire_prof">
+                  <div style="height: 200px;">
+                        <div id="test">
+                              <label for="UE">
+                                     Unité d'enseignement:
+                              </label class="form">
+                              <input type="text" name="UE" id="UE" required><br> <br> 
+                        </div> 
+
+                        <div id="test">
+                              <label for="Matricule">
+                                     Matricule:
+                              </label>
+                              <input  type="mail" name="Matricule" id="MatriculeProf" required><br><br>
+                        </div>  
+                  </div>  
+
+                    <div class="next" style=" padding: 0 15px 10px 10px; display: flex; justify-content: space-between;">
+                         <button class="boutton_next" type="submit"> <a style="color: aliceblue; text-decoration: none;" href="inscrire1.html">Previous</a> </button>
+                         <button class="boutton_next1" type="submit" value="Next"> Next </button>
+                  </div>
+               </form>
+          </div>
+     </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="js/inscrire2.js"></script>
+
+</body>
+</html>

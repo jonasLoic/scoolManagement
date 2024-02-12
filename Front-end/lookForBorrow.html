@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css/bootstrap.css">
+    <link rel="stylesheet" href="css/passer_emprunt.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Empeunter</title>
+</head>
+<body>
+
+    <!-- <header class="header">
+        <div class="titre">
+               <img class="img" src="photos/logo1.png" alt="logo">
+        </div>
+        <nav class="nav" style="font-size: 16px;">
+             <a style="text-decoration: none;" href="Accueil.html" >Accueil</a>
+             <a style="text-decoration: none;" href="propos.html">A propos</a>
+             <a style="text-decoration: none;" href="materiel.html">Matériel</a>
+             <a style="text-decoration: none;" href="emprunt.html">Historique</a>
+             <a style="text-decoration: none;" href="passer_emprunt.html"  class="active">Emprunter</a>
+        </nav>
+    </header> -->
+    
+    <main  class="container">
+        <div style="margin-top: 100px;">
+            <h2 style="text-align: center; margin-bottom: 30px;">Emprunter du matériel</h2>
+
+            <div id="object_infos" class="card mb-3" style=" height: 300px; align-items: center; justify-content: center; margin-top: 100px;">
+                
+            </div>
+
+
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+            
+                    <div class="modal-content">
+                        <div class="modal-header"> 
+                                <h4 class="modal-title" style="text-align: center;">Emprunter du matériel</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form id="modal_emprunt">
+                                <div class="input-group mb-3">
+                                    <span style="width: 50px;" class="input-group-text">Person</span>
+                                    <input name="name" type="text" class="form-control" placeholder="First Name">
+                                    <input name="name" style="margin-top: 10px;" type="text" id="text" class="form-control" placeholder="Last Name">
+                                </div>
+                
+                                <div class="mb-3">
+                                    <label for="registration number">Matricule:</label>
+                                    <input name="matricule" type="registration number" class="form-control" id="regis_number" placeholder="Entrer votre matricule" name="regis_number">
+                                </div>
+                
+                                <div class="mb-3 mt-3">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                </div>
+                                <div class="mb-3 mt-3">
+                                    <label for="nomMat">Nom du materiel:</label>
+                                    <input type="string" class="form-control" id="nomMat" placeholder="Entrez le nom du materiel" name="nomMat">
+                                </div>
+                
+                                <div class="mb-3">
+                                    <label for="number">Nombre:</label>
+                                    <input type="number" class="form-control" id="number" placeholder="Entrer le nombre de matériels" name="number">
+                                </div>
+                
+                                <div class="mb-3">
+                                    <label for="date">La date de remise du matériel:</label>
+                                    <input type="datetime-local" class="form-control" id="date" placeholder="Entrer la date" name="date">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="date">La date d'emprunt du matériel:</label>
+                                    <input type="datetime-local" class="form-control" id="date_emprunt" placeholder="Entrer la date" name="date_emprunt">
+                                </div>
+                                    
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">Emprunter</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                        </div>
+                            </form>
+                        </div>
+                    </div>
+                
+                </div>
+        </div> 
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+      <script src="js/passer_emprunt.js"></script>
+</body>
+</html>

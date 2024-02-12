@@ -1,0 +1,179 @@
+body{
+    background-color: #203b7e;
+}
+
+.container{
+    height: 300px;
+    width: 560px;
+    background-color: aliceblue;
+    margin: 65px 490px;
+    border-radius: 12px;
+    border-width: 0.5px;
+    border-style: outset;
+    border-color: #242d6e;
+    padding-bottom: 200px;
+    /*padding-top: 20px;*/
+    box-shadow: 0 4px 30px #040b3c;
+    position:relative;
+}
+
+.tete{
+    background-color: #242d6e;
+    padding-top: 40px;
+}
+
+.tete1{
+    background-color: #242d6e;
+    padding-top: 20px;
+}
+
+.tete2{
+    background-color: #242d6e;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.h1_3{
+    text-align: center; 
+    color: aliceblue; 
+}
+
+.img{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    object-fit: contain;
+    top: 125px;
+    right: 50%;
+    transform: translateX(47px);
+}
+
+.avatar{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    object-fit: contain;
+    top: 80px;
+    right: 50%;
+    transform: translateX(47px);
+}
+
+.avatar1{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    object-fit: contain;
+    top: 80px;
+    right: 50%;
+    transform: translateX(35px);
+}
+
+.chiffre{
+    align-items: center; 
+    text-align: center;
+    color: aliceblue;
+}
+
+.ligne{
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 10px;
+    color: aliceblue;
+}
+
+.hr{
+   color: aliceblue;
+}
+
+.infos{
+    justify-content: space-between; 
+    font-size: 20px;
+    display: flex;
+    padding: 0 10px;
+    color: aliceblue;
+}
+
+.formul1{
+    text-align: center;
+    align-items: center;
+    border-top: 1px solid rgb(17, 17, 17);
+    z-index: -999;
+    padding-top: 40px;
+}
+
+.formul2{
+    text-align: center;
+    align-items: center;
+    border-top: 1px solid rgb(17, 17, 17);
+    z-index: -999;
+    padding-top: 60px;
+}
+
+.form{
+    font-size: 23px;
+}
+
+.form_1{
+    font-size: 23px;
+}
+
+.next{
+    font-size: 25px;
+}
+
+.passer{
+    color: #040b3c;
+}
+
+.connect{
+    color: aliceblue; 
+    font-size: 25px;
+    background-color:  #1639d3; 
+    width: 150px; 
+    padding: 5px 0; 
+    border-color:  #253475;
+    border-radius: 25%;
+}
+
+.choix{
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+.label{
+    height: 30px; 
+    width: 300px;
+}
+
+.bouton1{
+    text-align: center; 
+    padding-top: 5px; 
+    padding-left: 10px;
+}
+
+.boutton_next{
+    background-color: #242d6e;
+    margin-left: 50px; color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+}
+
+.boutton_next1{background-color: #242d6e;
+    margin-right: 50px;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    border: none; width: 100px; 
+}
+
+/*.fa-user{
+    font-size: 40px;
+    width: 50px;
+    height: 60px;
+    border-radius: 70% 70%;
+    background-color: aliceblue;
+
+}*/

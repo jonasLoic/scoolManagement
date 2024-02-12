@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(210, 210, 210);
+}
+
+.header{
+    background: #242d6e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 25px;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.titre,
+.nav{
+    padding: 0;
+    transition: color .3s;
+}
+
+.nav a{
+    display: inline-block;
+    margin: 0 12px;
+    color: rgba(255, 255, 255, 0.67);
+    transition: color .3s;
+    margin: 0 20px;
+}
+
+.nav a:hover, 
+.nav a.active{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.img{
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+    transform: translateX(47px);
+}
+
+.arriere{
+    width: 100%;
+    background-image:  url(../photos/about-building.png);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    object-fit: contain;
+    background-attachment: fixed;
+    color: aliceblue; 
+    height: 500px;
+}
+
+h1{
+  text-align: center; color: rgb(47, 47, 193); 
+  margin-top: 25px;
+}
+
+hr{
+  margin: 0px 0;
+}
+
+.main{
+    margin: 20px 30px;
+}
+
+.footer_mots{
+    font-size: 17px;
+    margin: 0;
+}
+
+  .footer{
+    background: #242d6e;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+  border: 5px solid #242d6e;
+  border-radius: 5px;
+}
+
+.main{
+  padding: 0px 40px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 180%;
+  text-align: justify;
+}
+
+p {
+  text-indent: 50px;
+  word-spacing: 2px;
+}

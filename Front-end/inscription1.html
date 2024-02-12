@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/inscrire.css">
+      <title>INSCRIRE1</title>
+</head>
+<body>
+
+     <h1 style="text-align: center; color: aliceblue;">Gestion du matériel de l'institut Saint Jean</h1>
+
+     <main class="container">
+          <div class="tete"> <div class="infos">
+                <div>  infos personnels  </div>
+                <div>   </div>  
+          </div>
+          <div style="color: aliceblue;" class="ligne">
+                <div> <hr class="hr" style="width: 127px;"> <p class="chiffre">1</p> </div>
+                <div> <hr class="hr" style="width: 157px;"> <p class="chiffre">2</p> </div>
+          </div>  <br> 
+        
+          <img class="avatar" src="photos/toefOK.png" alt="avatar">  </div>
+        
+          <div class="formul1">
+               <form action="" class="form" id="inscrire2">
+                    <div>
+                          <label for="name" class="form-label">Nom</label>
+                          <input type="name" class="form-control" id="name" placeholder="Entrer Nom" name="name" required>
+                    </div> <br> 
+
+                    <div>
+                          <label for="name" class="form-label">Prénom</label>
+                          <input type="name" class="form-control" id ="prenom" placeholder="Entrer prenom" name="prenom" required>
+                    </div> <br>
+
+                    <div>
+                          <label for="number" class="form-label">Telph</label>
+                          <input type="number" id="number" class="form-control" placeholder="Entrer Numero" name="number" required>
+                    </div>  <br> 
+
+                    <div> <label for="">Sexe:
+                          <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Masculin
+                          <label class="form-check-label" for="radio1"></label>
+                              
+                          <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Feminin
+                          <label class="form-check-label" for="radio2"></label>
+                    </div> <br>
+
+                    <div>
+                          <label for="email" class="form-label">Email:</label>
+                          <input type="email" class="form-control" id="email" placeholder="Entrer email" name="email" required>
+                    </div> <br>
+                    
+                    <div class="next" class="" style=" padding: 0 15px 10px 10px; display: flex; justify-content: space-between;">
+                          <button style="background-color: #242d6e; margin-left: 50px; color: aliceblue; padding: 10px; border-radius: 5px;border: none; width: 100px;"  type="submit" value="Previous"> <a style="color: aliceblue; text-decoration: none;" href="index.html">Previous</a> </button>
+                          <button style="background-color: #242d6e; margin-right: 50px; color: aliceblue; padding: 10px; border-radius: 5px;border: none; width: 100px;"  type="submit" value="Next"> Next </button>
+                    </div>
+               </form> 
+          </div>
+     </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="js/inscrire1.js"></script>
+    
+</body>
+</html>
